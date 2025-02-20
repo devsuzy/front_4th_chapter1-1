@@ -123,7 +123,7 @@ History API란 windows.history 객체에 접근할 수 있도록 제공해주는
 
 - 기본 클래스 정의: 모든 컴포넌트의 기반이 되는 Component 클래스를 정의한 코드 입니다.
 
-```
+```javascript
 export default class Component { // 초기 컴포넌트 
     $target;
     state;
@@ -152,7 +152,7 @@ export default class Component { // 초기 컴포넌트
 
 - 실제 사용 예제: Component 클래스를 상속하여 만든 Header 컴포넌트 입니다.
 
-```
+```javascript
 import Component from "../core/Component";
 
 export default class Header extends Component {
@@ -267,7 +267,7 @@ hash router를 구현 하는데, 다른 페이지들은 이동이 잘 되는데 
 
 ![화면 캡처 2024-12-21 142800](https://github.com/user-attachments/assets/16b8c91d-c90b-4066-a2d1-1946a57eada8)
  
-```
+```javascript
 import MainPage from "../pages/MainPage";
 import ProfilePage from "../pages/ProfilePage";
 import LoginPage from "../pages/LoginPage";
